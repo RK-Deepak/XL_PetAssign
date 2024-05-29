@@ -1,0 +1,24 @@
+
+
+.arrows
+{
+    position: relative;
+    z-index: 1;
+}
+.App 
+{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.App .vector-img
+{
+   position: absolute;
+   z-index: -10;
+   right: 5px;
+   width: 102%;
+   display: inline-block;
+   top: 95px;
+  
+  
+}

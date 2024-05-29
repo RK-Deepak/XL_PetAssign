@@ -1,0 +1,256 @@
+.homex
+{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.homex p 
+{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.arrows 
+{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   position: relative;
+   
+  
+
+}
+.arrowBack 
+{
+   
+   font-size: 40px; 
+}
+.arrowRight 
+{
+    font-size: 40px;
+
+}
+.homex .imghome-1,.imghome-2,.imghome-3
+{
+    position: absolute;
+   width: 600px;
+   height: 600px;
+   
+   right: 10px;
+   top: 10px;
+}
+.side-images img 
+{
+    position: absolute;
+}
+.imghome-1 img:nth-child(1)
+{
+   width:300px ;
+   height: 300px;
+   left: 10px;
+   top: 10px;
+}
+.imghome-1 img:nth-child(2)
+{
+    width:300px ;
+    height: 300px;
+    right: 10px;
+    top: 10px;
+}
+.imghome-1 img:nth-child(3)
+{
+    width:300px ;
+    height: 300px;
+    right: -2px;
+    bottom: 20px;
+}
+.imghome-1 img:nth-child(4)
+{
+    width:300px ;
+    height: 300px;
+    right: 150px;
+    bottom: 150px;
+    z-index: 40;
+}
+.imghome-1 img:nth-child(5)
+{
+   width:300px ;
+   height: 300px;
+   left: -34px;
+   bottom: 0;
+}
+
+.imghome-2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #fff; 
+}
+
+.imghome-2 img:nth-child(1) {
+    left: 40px;
+    top: 40px;
+}
+
+.imghome-2 img:nth-child(2) {
+    right: 40px;
+    top: 40px;
+}
+
+.imghome-2 img:nth-child(3) {
+    right: 20px;
+    bottom: 50px;
+}
+
+.imghome-2 img:nth-child(4) {
+    right: 140px;
+    bottom: 140px;
+    z-index: 40;
+}
+
+.imghome-2 img:nth-child(5) {
+    left: 10px;
+    bottom: 20px;
+}
+
+.animated-text1{
+    display: inline-block;
+    position: relative;
+    animation: moveText 2s forwards;
+}
+
+@keyframes moveText {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-300px); 
+    }
+}
+
+
+.animated-text3 {
+    position: relative;
+    animation: slideFromTop 2s forwards;
+   left: -250px;
+}
+
+@keyframes slideFromTop {
+    from {
+        top: -50px; 
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.imghome-3 img {
+    width: 300px;
+    height: 300px;
+   
+    position: absolute; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #fff;
+}
+
+.imghome-3 img:nth-child(1) {
+    left: -4px;
+    top: 21px;
+}
+
+.imghome-3 img:nth-child(2) {
+    right: 25px;
+    top: 29px;
+}
+
+.imghome-3 img:nth-child(3) {
+    right: 6px;
+    bottom: 80px;
+    z-index: 40;
+}
+
+.imghome-3 img:nth-child(4) {
+    bottom: 100px;
+    left: -56px;
+   
+}
+
+.imghome-3 img:nth-child(5) {
+    left: 110px;
+    bottom: 90px;
+}
+
+.home4 {
+    position: relative;
+    padding: 20px; /* Add padding if needed */
+}
+
+.animated-text {
+    position: relative;
+    animation: slideFromTop 2s forwards; /* Adjust the duration as needed */
+}
+
+@keyframes slideFromTop {
+    from {
+        top: -50px; /* Adjust the starting position as needed */
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.imghome-4 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    
+    right: 160px;
+    top: 90px;
+}
+
+
+.imghome-4 img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #fff;
+    border-radius: 10px; /* Adds a slight rounding to the corners */
+}
+
+.imghome-4 img:nth-child(1) {
+    left: 30%;
+    transform: rotate(-15deg);
+}
+
+.imghome-4 img:nth-child(2) {
+    left: 40%;
+    transform: rotate(-7.5deg);
+}
+
+.imghome-4 img:nth-child(3) {
+    left: 50%;
+    transform: rotate(0deg);
+    z-index: 10;
+}
+
+.imghome-4 img:nth-child(4) {
+    left: 60%;
+    transform: rotate(7.5deg);
+}
+
+.imghome-4 img:nth-child(5) {
+    left: 70%;
+    transform: rotate(15deg);
+}
+
+
